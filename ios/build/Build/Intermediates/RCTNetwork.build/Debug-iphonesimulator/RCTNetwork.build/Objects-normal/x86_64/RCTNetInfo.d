@@ -1,0 +1,13 @@
+dependencies: \
+  /Users/dung.huynh/Documents/Pyco/drag-n-drop/node_modules/react-native/Libraries/Network/RCTNetInfo.m \
+  /Users/dung.huynh/Documents/Pyco/drag-n-drop/node_modules/react-native/Libraries/Network/RCTNetInfo.h \
+  /Users/dung.huynh/Documents/Pyco/drag-n-drop/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/dung.huynh/Documents/Pyco/drag-n-drop/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/dung.huynh/Documents/Pyco/drag-n-drop/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/dung.huynh/Documents/Pyco/drag-n-drop/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/dung.huynh/Documents/Pyco/drag-n-drop/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/dung.huynh/Documents/Pyco/drag-n-drop/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/dung.huynh/Documents/Pyco/drag-n-drop/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/dung.huynh/Documents/Pyco/drag-n-drop/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/dung.huynh/Documents/Pyco/drag-n-drop/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/dung.huynh/Documents/Pyco/drag-n-drop/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h
