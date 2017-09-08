@@ -12,12 +12,14 @@ import {
 class ListItem extends Component {
   render() {
     return (
-      <TouchableWithoutFeedback
-        onLongPress={this.props.onPress}>
-        <View
-          {...this.props.pan}
-          style={[styles.itemContainer, { backgroundColor: getBgColor() }, {...this.props.style}]} />
-      </TouchableWithoutFeedback>
+      <Animated.View
+        style={[styles.itemContainer, { backgroundColor: getBgColor() },this.props.style]}
+        {...this.props.panHandlers}>
+        <TouchableWithoutFeedback
+          onLongPress={this.props.onPress}>
+          <View />
+        </TouchableWithoutFeedback>
+      </Animated.View>
     )
   }
 }
@@ -48,12 +50,12 @@ export default class App extends Component {
     }
   }
 
-  onItemMove = (e, gesture) => {
-    console.log(gesture.dx, gesture.moveX)
+  _getActiveItem = () => {
+    return this.state.blockPositions[this.activeItem];
   }
 
-  getActiveItem = () => {
-    return this.state.blockPositions[this.activeItem];
+  onItemMove = (e, gesture) => {
+    console.log(gesture.dx, gesture.moveX)
   }
 
   activateItem = key = () => {
@@ -77,7 +79,7 @@ export default class App extends Component {
           renderItem={({item, index}) => (
             <ListItem 
               key={index}
-              pan={this.panresponder.panHandlers}
+              panHandlers={this.panresponder.panHandlers}
               style={this._getItemStyle(index)}
               onPress={this.activateItem(index)}
               />
